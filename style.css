@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: rgba(126, 100, 52, 0.6);
+}
+
+img {
+    height: 25%;
+}
+
+.container {
+    /* border: 1px solid black; */
+    background-color: rgba(54, 52, 52, .5);
+    border-radius: 50%;
+    width: 500px;
+    height: 60px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.diamond-shape {
+    border: 5px solid goldenrod;
+    background: white;
+    height: 55px;
+    text-align: center;
+    transform: rotate(45deg);
+    width: 55px;
+}
+
+.result {
+    font-size: 2em;
+    font-weight: 900;
+    color: rgb(58, 58, 239);
+    transform: rotate(-45deg);
+}
+
+#getBtn {
+    margin-top: 10px;
+}
+
+#info {
+    margin-top: 20px;
+}
